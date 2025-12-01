@@ -1,5 +1,9 @@
 /*STEP 1: Data Wrangling for Earnings*/
 
+/*Data were retrieved from https://landregistry.data.gov.uk/app/ukhpi/?lang=en 
+and earnings data are obtained from https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkingho
+urs/datasets/averageweeklyearningsearn01/current*/
+
 /*Import data related to the monthly earning of each region in England region*/
 PROC IMPORT 
 	datafile='/home/u64380250/Assignment/rtisanov2025.xlsx' /*Data related to earnings*/
